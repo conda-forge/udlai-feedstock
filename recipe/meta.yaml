@@ -1,13 +1,13 @@
 {% set name = "udlai" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 38d33cb02a9de832d5acb657a7095997d5594bdc55c91b2cd2f885294a32899e
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ebb72750ff7ade90faf18f076c6cee9bb65b886867edf14284440e503c1569f1
 
 build:
   noarch: python
